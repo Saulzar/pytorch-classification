@@ -23,6 +23,7 @@ import models.imagenet64 as models
 
 import labels
 import pickle
+import PIL
 
 from utils import Bar, Logger, AverageMeter, accuracy, mkdir_p, savefig
 
