@@ -144,7 +144,7 @@ def load_data_files(files, transform, filter=None):
 
 
 def train_imagenet64(location, transform, filter=None):
-    files = [path.join(location, "train_data_batch_{}".format(i)) for i in range(1, 3)]
+    files = [path.join(location, "train_data_batch_{}".format(i)) for i in range(1, 11)]
 
     return load_data_files(files, transform, filter)
 
